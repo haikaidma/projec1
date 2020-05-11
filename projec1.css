@@ -1,0 +1,85 @@
+.menu {
+    width: 100%;
+    display: flex;
+    background-color: cyan;
+}
+.menu .logo{
+    width: 20%;
+}
+.menu .logo img{
+    width: 400px;
+    margin-left: 150px;
+    margin-top: -50px;
+
+}
+.menu .menucon{
+    width: 80%;
+}
+.menu .menucon ul {
+    text-align: center;
+    display: block;
+}
+.menu .menucon ul li{
+    list-style: none;
+    transition: 0,4s;
+    display: inline-block;
+    padding: 12px;
+    transition: 0,4s;
+    margin-top: 20px;
+}
+.menu .menucon ul li a{
+    text-align: center;
+    text-decoration: none;
+    font-size: 24px;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.menu .menucon ul li a:hover{
+    color: rgb(60, 175, 228);
+}
+.menu .menucon ul li:hover ::after{
+    content: "";
+    width: 100%;
+    background-color: rgb(16, 140, 212);
+    height: 3px;
+    margin-top: 16px;
+    display: block;
+ }
+ 
+ .menu .menucon #search{
+     overflow: hidden;
+    margin-top: 100px;
+    width: 300px;
+    height:40px;
+    border-radius: 10px 0px  0px 10px;
+  }
+  .menu .menucon   button{
+    width: 100px;
+    height:40px;
+    border-radius: 0px 10px  10px 0px;
+    background-color: rgb(187, 181, 187);
+    border: none;
+  }
+  
+  .noidung{
+      display: flex;
+    width: 100%;
+    margin: auto;
+  }
+  .noidung .slide{
+      width: 600px;
+      margin-left: 50px;
+  }
+  .noidung .sach{
+      display: flex;
+      width: 300px;
+      margin-left: 150px;
+  }
+  .noidung .sach .sach1 img{
+      width: 230px;
+      margin-right: 50px;
+      padding: 10px;
+  }
+  .noidung .sach .sach2 img{
+    width: 230px;
+  }
